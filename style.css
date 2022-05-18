@@ -148,4 +148,22 @@ footer {
         padding: 10px 0px;
         border-radius: 4px;
     }
+
+    .erro-container {
+        position: relative;
+    }
+
+    .erro-imagem {
+        position: relative;
+        left: 90%;
+    }
+
+    .correto-container {
+        position: relative;
+    }
+
+    .correto-imagem {
+        position: relative;
+        left: 90%;
+    }
 }
