@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-face.ico" type="image/x-icon">
+    <title>Facebook</title>
+</head>
+<body onload="anoAtual()">
+    <div class="header">
+        <img src="logo.svg" alt="Facebook" class="imagem-logo">
+    </div>
+    <div class="box">
+        <h1>Entrar no Facebook</h1>
+        <form>
+            <input type="email" name="email" id="email" placeholder="Email ou telefone" class="input" onchange="toogleStyleBoxEmail()">
+            <span id="erro" class="erro-container">
+                <img class="erro-imagem" src="error.png" alt="imagem erro">
+            </span>
+            <span id="correto" class="correto-container">
+                <img class="correto-imagem" src="correto.png" alt="certo imagem">
+            </span>
+            <input type="password" name="senha" id="senha" placeholder="Senha" class="input" onchange="verificarSenha()" required>
+            <input type="button" value="Entrar" class="entrar" onclick="toogleStyleBoxEmail()">
+        </form>
+        <a href="#">Esqueceu a senha?</a>
+    </div>
+    <footer>
+        <p>&copy;Facebook <span id="ano"></span></p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
