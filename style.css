@@ -115,6 +115,22 @@ input:focus {
     display: block !important;
 }
 
+.msg-erro {
+    color: red;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 8px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+
+.link {
+    color: red;
+}
+
+
+
 a {
     text-align: center;
     margin: 30px 0px;

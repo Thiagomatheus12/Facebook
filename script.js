@@ -2,16 +2,19 @@ function toogleStyleBoxEmail() {
     var email = document.getElementById("email");
     var divErro = document.getElementById("erro");
     var divCorreto = document.getElementById("correto");
+    var msgErro = document.getElementById("msg-erro");
     if (validateEmail(email.value)) {
         email.classList.remove("erro")
         divErro.classList.remove("d-block") 
         email.classList.add("correto")
         divCorreto.classList.add("d-blockcorreto")
+        msgErro.classList.remove("d-block")
     } else {
         email.classList.add("erro")
         divErro.classList.add("d-block")
         email.classList.remove("correto")
         divCorreto.classList.remove("d-blockcorreto")
+        msgErro.classList.add("d-block")
         alert("Digite um E-mail válido")
     }
     console.log(email.value)
