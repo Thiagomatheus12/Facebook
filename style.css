@@ -144,4 +144,8 @@ footer {
     .box {
         width: 90%;
     }
+    .entrar {
+        padding: 10px 0px;
+        border-radius: 4px;
+    }
 }
