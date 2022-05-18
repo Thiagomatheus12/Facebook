@@ -182,4 +182,8 @@ footer {
         position: relative;
         left: 90%;
     }
+
+    .msg-erro {
+        margin-top: -18px;
+    }
 }
